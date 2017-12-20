@@ -1,0 +1,218 @@
+.footer-container {
+    position: absolute;
+    top: 2400px;
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-left {
+    width: 50vw;
+    height: 100px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-right {
+    width: 50vw;
+    height: 100px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .footer-container {
+        position: absolute;
+        top: 2240px;
+        width: 100vw;
+        height: 60px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        font-size: 11pt;
+    }
+
+    .footer-left {
+        width: 50vw;
+        height: 60px;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .footer-right {
+        width: 50vw;
+        height: 60px;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    
+        .footer-container {
+            position: absolute;
+            top: 2060px;
+            width: 100vw;
+            height: 50px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            font-size: 9pt;
+        }
+
+        .footer-left {
+            width: 50vw;
+            height: 50px;
+            color: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .footer-right {
+            width: 50vw;
+            height: 50px;
+            color: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+@media only screen and (max-width: 770px) {
+
+    .footer-container {
+        position: absolute;
+        top: 2020px;
+        width: 100vw;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        font-size: 9pt;
+    }
+
+
+}
+
+@media only screen and (max-width: 660px) {
+
+    .footer-container {
+        position: absolute;
+        top: 2020px;
+        width: 100vw;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        font-size: 8pt;
+    }
+
+}
+
+@media only screen and (max-width: 585px) {
+
+    .footer-container {
+        position: absolute;
+        top: 2100px;
+        width: 100vw;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        font-size: 7pt;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .footer-container {
+        position: absolute;
+        top: 2230px;
+        width: 100vw;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        font-size: 6pt;
+    }
+
+    .footer-left {
+        width: 50vw;
+        height: 45px;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .footer-right {
+        width: 50vw;
+        height: 45px;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .footer-container {
+        position: absolute;
+        top: 3020px;
+        width: 100vw;
+        height: 50px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        font-size: 6pt;
+    }
+
+    .footer-left {
+        width: 50vw;
+        height: 45px;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .footer-right {
+        width: 50vw;
+        height: 45px;
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+}
