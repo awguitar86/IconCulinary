@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import '../../CSS/welcome.css';
-import foodPlatter from '../../images/food-platters.jpg';
-import burger from '../../images/burger.jpg';
-import pizza from '../../images/pizza.jpg';
-import steakPotatoes from '../../images/steak-potatoes.jpg';
-import strawberries from '../../images/strawberries.jpg';
+import './welcome.css';
+import foodPlatter from '../../../images/food-platters.jpg';
+import burger from '../../../images/burger.jpg';
+import pizza from '../../../images/pizza.jpg';
+import steakPotatoes from '../../../images/steak-potatoes.jpg';
+import strawberries from '../../../images/strawberries.jpg';
 
 export default class Welcome extends Component {
     render () {

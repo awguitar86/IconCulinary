@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
-import '../../CSS/Contact/contact.css';
+import './contact.css';
 
 export default class Thanks extends Component {
     render () {

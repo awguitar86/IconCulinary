@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import '../../CSS/header.css';
-import icon from '../../images/IconCulinary-KnifeLogoWhite.png';
+import './header.css';
+import icon from '../../../images/IconCulinary-KnifeLogoWhite.png';
 import { Link } from 'react-router-dom';
-import aquarium from '../../images/AquariumLogo-white.png'
-import reef from '../../images/ReefCafe.png';
-import bistro from '../../images/Bistro72Logo.png';
-import { getUid } from '../../utilities/uid';
-import hamburgerMenu from '../../images/hamburgerMenu.png';
-import MagicDropdown from '../MagicDropdown';
-import HamDropdown from '../HamDropdown';
+import { getUid } from '../../../utilities/uid';
+
+import aquarium from '../../../images/AquariumLogo-white.png'
+import reef from '../../../images/ReefCafe.png';
+import bistro from '../../../images/Bistro72Logo.png';
+import hamburgerMenu from '../../../images/hamburgerMenu.png';
+import MagicDropdown from '../../MagicDropdown';
+import HamDropdown from '../../HamDropdown';
 
 
 export default class Header extends Component {

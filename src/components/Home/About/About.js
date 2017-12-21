@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../../CSS/about.css';
-import salmon from '../../images/salmon.jpg';
-import foodPlatters from '../../images/food-platters.jpg';
+import './about.css';
+import salmon from '../../../images/salmon.jpg';
+import foodPlatters from '../../../images/food-platters.jpg';
 
 export default class About extends Component {
     render () {

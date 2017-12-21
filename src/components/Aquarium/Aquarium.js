@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import aquarium from '../../images/AquariumLogo-white.png';
-import '../../CSS/Aquarium/aquarium.css';
-import Footer from '../Home/Footer';
+import './aquarium.css';
+import Footer from '../Home/Footer/Footer';
 import Menu from'./iconCulinaryAquaMenu.pdf'
 
 export default class Aquarium extends Component {

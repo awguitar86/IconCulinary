@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
-import Hero from './Hero';
-import Companies from './Companies';
-import Welcome from './Welcome';
-import About from './About';
-import Footer from './Footer';
+import Hero from '../Hero/Hero';
+import Companies from '../Companies/Companies';
+import Welcome from '../Welcome/Welcome';
+import About from '../About/About';
+import Footer from '../Footer/Footer';
 
 export default class Home extends Component {
     render () {

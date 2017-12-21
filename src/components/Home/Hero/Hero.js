@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../../CSS/hero.css';
+import './hero.css';
 
 export default class Hero extends Component {
     render () {
