@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { getUid } from '../utilities/uid';
-import '../CSS/header.css';
+import './Home/Header/header.css';
 
 
 export default class HamDropdown extends Component {
