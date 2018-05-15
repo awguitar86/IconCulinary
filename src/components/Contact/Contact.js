@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 import './contact.css';
-import Thanks from './Thanks.js';
 
 export default class Contact extends Component {
     render () {
@@ -15,7 +14,6 @@ export default class Contact extends Component {
                     <input placeholder="Name" className="name-input"></input>
                     <input placeholder="Email" className="email-input"></input>
                     <textarea placeholder="Message" className="message"></textarea>
-                    <button className="submit-button"><Link to="/thanks">Submit</Link></button>
                 </div>
 
                 <div className="contact-footer-container">

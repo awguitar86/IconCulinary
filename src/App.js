@@ -3,9 +3,8 @@ import { Route } from 'react-router-dom';
 // import router from './router.js';
 
 import Home from './components/Home/Home/Home';
-import Aquarium from './components/Aquarium/Aquarium';
+import Menu from './components/Menu/Menu';
 import Contact from './components/Contact/Contact';
-import Thanks from './components/Contact/Thanks';
 
 
 import './App.css';
@@ -19,9 +18,8 @@ export default class App extends Component {
       <div className="body">
         <Header />
         <Route exact path="/" component={Home} />
-        <Route path="/aquarium" component={Aquarium} />
+        <Route path="/menu" component={Menu} />
         <Route path="/contact" component={Contact} />
-        <Route path="/thanks" component={Thanks} />
       </div>
     );
   }

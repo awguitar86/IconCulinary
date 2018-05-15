@@ -9,7 +9,7 @@ export default class Hero extends Component {
                 <div className="layer"></div>
                 <h1 className="icon-text">ICON CULINARY</h1>
                 <h2 className="icon-subtext">YOUR CATERING TEAM FOR ALL OCCASIONS!</h2>
-                
+
             </div>
         )
     }

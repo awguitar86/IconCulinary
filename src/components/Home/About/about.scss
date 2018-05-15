@@ -1,0 +1,449 @@
+.about-container {
+    position: absolute;
+    top: 1450px;
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 600px;
+    height: 785px;
+}
+
+.about h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.about p {
+    width: 500px;
+    height: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    line-height: 2;
+    color: rgb(80, 80, 80);
+}
+
+.about-img {
+    width: 450px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.salmon {
+    width: 450px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.about-img-two {
+    display: none;
+}
+
+.food-platter {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .about-container {
+        position: absolute;
+        top: 1475px;
+        width: 100vw;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        width: 530px;
+        height: 785px;
+    }
+    
+    .about h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+    }
+    
+    .about p {
+        width: 450px;
+        height: 700px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13pt;
+        line-height: 2;
+        color: rgb(80, 80, 80);
+    }
+    
+    .about-img {
+        width: 400px;
+        height: auto;
+        border-radius: 7px;
+    }
+    
+    .salmon {
+        width: 400px;
+        height: auto;
+        border-radius: 7px;
+    }
+
+    .about-img-two {
+        display: none;
+    }
+    
+    .food-platter {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    
+        .about-container {
+            position: absolute;
+            top: 1300px;
+            width: 100vw;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .about {
+            width: 360px;
+            height: 730px;
+        }
+        
+        .about h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: normal;
+        }
+        
+        .about p {
+            width: 340px;
+            height: 645px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 11.7pt;
+            line-height: 2;
+            color: rgb(80, 80, 80);
+        }
+        
+        .about-img {
+            width: 350px;
+            height: auto;
+            border-radius: 7px;
+            margin-top: 35px;
+        }
+        
+        .salmon {
+            width: 350px;
+            height: auto;
+            border-radius: 7px;
+            margin-top: 35px;
+        }
+
+        .about-img-two {
+            display: none;
+        }
+        
+        .food-platter {
+            display: none;
+        }
+    }
+
+@media only screen and (max-width: 770px) {
+
+    .about-container {
+        position: absolute;
+        top: 1100px;
+        width: 100vw;
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 600px;
+        height: 480px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        font-size: 20pt;
+    }
+    
+    .about p {
+        width: 600px;
+        height: 645px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.7pt;
+        line-height: 2;
+        color: rgb(80, 80, 80);
+    }
+
+    .about-img-two {
+        display: initial;
+        width: 450px;
+        height: auto;
+        margin-top: 50px;
+    }
+    
+    .food-platter {
+        display: initial;
+        width: 450px;
+        height: auto;
+    }
+
+    .about-img {
+        display: none;
+    }
+    
+    .salmon {
+        display: none;
+    }
+        
+}
+
+@media only screen and (max-width: 660px) {
+
+    .about-container {
+        position: absolute;
+        top: 1100px;
+        width: 100vw;
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 560px;
+        height: 480px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        font-size: 20pt;
+    }
+    
+    .about p {
+        width: 560px;
+        height: 645px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.7pt;
+        line-height: 2;
+        color: rgb(80, 80, 80);
+    }
+
+    .about-img-two {
+        display: initial;
+        width: 450px;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .food-platter {
+        display: initial;
+        width: 450px;
+        height: auto;
+    }
+
+    .about-img {
+        display: none;
+    }
+    
+    .salmon {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 585px) {
+
+    .about-container {
+        position: absolute;
+        top: 1080px;
+        width: 100vw;
+        height: 1000px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 440px;
+        height: 480px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        font-size: 20pt;
+    }
+    
+    .about p {
+        width: 440px;
+        height: 645px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.7pt;
+        line-height: 2;
+        color: rgb(80, 80, 80);
+    }
+
+    .about-img-two {
+        display: initial;
+        width: 400px;
+        height: auto;
+        margin-top: 100px;
+    }
+    
+    .food-platter {
+        display: initial;
+        width: 400px;
+        height: auto;
+    }
+
+    .about-img {
+        display: none;
+    }
+    
+    .salmon {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .about-container {
+        position: absolute;
+        top: 1165px;
+        width: 100vw;
+        height: 1060px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 360px;
+        height: 750px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        font-size: 20pt;
+    }
+    
+    .about p {
+        width: 360px;
+        height: 645px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.7pt;
+        line-height: 2;
+        color: rgb(80, 80, 80);
+    }
+
+    .about-img-two {
+        display: initial;
+        width: 320px;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .food-platter {
+        display: initial;
+        width: 320px;
+        height: auto;
+    }
+
+    .about-img {
+        display: none;
+    }
+    
+    .salmon {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .about-container {
+        position: absolute;
+        top: 1765px;
+        width: 100vw;
+        height: 1250px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 283px;
+        height: 940px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        font-size: 20pt;
+    }
+    
+    .about p {
+        width: 283px;
+        height: 645px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11.7pt;
+        line-height: 2;
+        color: rgb(80, 80, 80);
+    }
+
+    .about-img-two {
+        display: initial;
+        width: 320px;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .food-platter {
+        display: initial;
+        width: 320px;
+        height: auto;
+    }
+
+    .about-img {
+        display: none;
+    }
+    
+    .salmon {
+        display: none;
+    }
+
+}

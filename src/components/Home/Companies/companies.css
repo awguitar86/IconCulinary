@@ -1,208 +1,151 @@
 .companies-container {
+  position: absolute;
+  top: 700px;
+  width: 100vw;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center; }
+
+.companies {
+  position: absolute;
+  width: 50vw;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around; }
+
+.aquarium-logo {
+  width: 170px;
+  height: auto;
+  margin-top: 15px; }
+
+.reef-cafe-logo {
+  width: 220px;
+  height: auto; }
+
+.bistro-logo {
+  width: 200px;
+  height: auto; }
+
+@media only screen and (max-width: 1200px) {
+  .companies-container {
     position: absolute;
-    top: 700px;
+    top: 577px;
     width: 100vw;
     height: 150px;
     background-color: black;
     display: flex;
-    justify-content: center;
-}
+    justify-content: center; } }
 
-.companies {
+@media only screen and (max-width: 990px) {
+  .companies-container {
+    position: absolute;
+    top: 500px;
+    width: 100vw;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center; }
+  .companies {
     position: absolute;
     width: 50vw;
-    height: 150px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around; }
+  .aquarium-logo {
+    width: 140px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 8px; }
+  .reef-cafe-logo {
+    width: 180px;
+    height: auto;
+    margin-right: 20px; }
+  .bistro-logo {
+    width: 170px;
+    height: auto; } }
+
+@media only screen and (max-width: 770px) {
+  .companies-container {
+    position: absolute;
+    top: 375px;
+    width: 100vw;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: center; }
+  .companies {
+    position: absolute;
+    width: 50vw;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around; }
+  .aquarium-logo {
+    width: 115px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 3px; }
+  .reef-cafe-logo {
+    width: 140px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: -5px; }
+  .bistro-logo {
+    width: 130px;
+    height: auto; } }
+
+@media only screen and (max-width: 585px) {
+  .companies-container {
+    position: absolute;
+    top: 336px;
+    width: 100vw;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: center; } }
+
+@media only screen and (max-width: 500px) {
+  .aquarium-logo {
+    width: 115px;
+    height: auto;
+    margin-right: 0px;
+    margin-top: 3px; }
+  .reef-cafe-logo {
+    width: 140px;
+    height: 100px;
+    margin-right: 0px;
+    margin-top: -5px; }
+  .bistro-logo {
+    width: 130px;
+    height: auto; } }
+
+@media only screen and (max-width: 420px) {
+  .companies-container {
+    position: absolute;
+    top: 336px;
+    width: 100vw;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center; }
+  .companies {
+    position: absolute;
+    width: 80vw;
+    height: 595px;
     background-color: black;
     display: flex;
     justify-content: space-around;
-}
-
-.aquarium-logo {
-    width: 170px;
-    height: auto;
-    margin-top: 15px;
-}
-
-.reef-cafe-logo {
+    align-items: center;
+    flex-direction: column; }
+  .aquarium-logo {
     width: 220px;
-    height: auto;
-}
-
-.bistro-logo {
-    width: 200px;
-    height: auto;
-}
-
-@media only screen and (max-width: 1200px) {
-
-    .companies-container {
-        position: absolute;
-        top: 577px;
-        width: 100vw;
-        height: 150px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-    }
-
-}
-
-@media only screen and (max-width: 990px) {
-
-    .companies-container {
-        position: absolute;
-        top: 500px;
-        width: 100vw;
-        height: 120px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-    }
-
-    .companies {
-        position: absolute;
-        width: 50vw;
-        height: 120px;
-        background-color: black;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .aquarium-logo {
-        width: 140px;
-        height: auto;
-        margin-right: 20px;
-        margin-top: 8px;
-    }
-    
-    .reef-cafe-logo {
-        width: 180px;
-        height: auto;
-        margin-right: 20px;
-    }
-    
-    .bistro-logo {
-        width: 170px;
-        height: auto;
-    }
-
-}
-
-@media only screen and (max-width: 770px) {
-
-    .companies-container {
-        position: absolute;
-        top: 375px;
-        width: 100vw;
-        height: 90px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-    }
-
-    .companies {
-        position: absolute;
-        width: 50vw;
-        height: 90px;
-        background-color: black;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .aquarium-logo {
-        width: 115px;
-        height: auto;
-        margin-right: 20px;
-        margin-top: 3px;
-    }
-    
-    .reef-cafe-logo {
-        width: 140px;
-        height: 100px;
-        margin-right: 20px;
-        margin-top: -5px;
-    }
-    
-    .bistro-logo {
-        width: 130px;
-        height: auto;
-    }
-
-}
-
-@media only screen and (max-width: 585px) {
-
-    .companies-container {
-        position: absolute;
-        top: 336px;
-        width: 100vw;
-        height: 90px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
-    
-    .aquarium-logo {
-        width: 115px;
-        height: auto;
-        margin-right: 0px;
-        margin-top: 3px;
-    }
-    
-    .reef-cafe-logo {
-        width: 140px;
-        height: 100px;
-        margin-right: 0px;
-        margin-top: -5px;
-    }
-    
-    .bistro-logo {
-        width: 130px;
-        height: auto;
-    }
-
-}
-
-@media only screen and (max-width: 420px) {
-
-    .companies-container {
-        position: absolute;
-        top: 336px;
-        width: 100vw;
-        height: 600px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-    }
-
-    .companies {
-        position: absolute;
-        width: 80vw;
-        height: 595px;
-        background-color: black;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .aquarium-logo {
-        width: 220px;
-        height: auto;
-    }
-    
-    .reef-cafe-logo {
-        width: 280px;
-        height: auto;
-    }
-    
-    .bistro-logo {
-        width: 220px;
-        height: auto;
-    }
-
-}
+    height: auto; }
+  .reef-cafe-logo {
+    width: 280px;
+    height: auto; }
+  .bistro-logo {
+    width: 220px;
+    height: auto; } }
