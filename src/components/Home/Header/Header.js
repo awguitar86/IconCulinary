@@ -8,8 +8,9 @@ import aquarium from '../../../images/AquariumLogo-white.png'
 import reef from '../../../images/ReefCafe.png';
 import bistro from '../../../images/Bistro72Logo.png';
 import hamburgerMenu from '../../../images/hamburgerMenu.png';
-import MagicDropdown from '../../MagicDropdown';
 import HamDropdown from '../../HamDropdown';
+import facebook from '../../../images/FacebookLogo.svg';
+import instagram from '../../../images/InstagramLogo.svg';
 
 
 export default class Header extends Component {
@@ -20,21 +21,20 @@ export default class Header extends Component {
     render () {
         return(
             <div className="header-container">
+                <div className='fillin-div'>
+                    <div className='header-social'>
+                        <img src={facebook} alt='facebook logo'/>
+                        <img src={instagram} alt='instagram logo'/>
+                    </div>
+                </div>
                 <div className="logo-container">
-                    <Link to='/' className="icon-logo"><img src={icon}/></Link>
+                    <Link to='/' className="icon-logo"><img src={icon} alt='icon culinary logo'/></Link>
                 </div>
                 <div className="nav-container">
                     <nav className="nav">
                         <Link to='/' className="home">HOME</Link>
-                        <MagicDropdown key="dropdown" className="venues" text="VENUES" options={[
-                            {img: aquarium, to:'/aquarium'},
-                        ]}/>
+                        <Link to='/menu' className="home">MENU</Link>
                         <Link to='/contact' className="contact">CONTACT</Link>
-                        <HamDropdown key="dropdown-ham-menu" className="ham-menu" img={hamburgerMenu} options={[
-                            {text: "HOME", to:'/'},
-                            {img: aquarium, to:'/aquarium'},
-                            {text: "CONTACT", to:'/contact'},
-                        ]}/>
                     </nav>
                 </div>
             </div>

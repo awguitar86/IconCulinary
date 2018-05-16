@@ -1,6 +1,4 @@
 .companies-container {
-  position: absolute;
-  top: 700px;
   width: 100vw;
   height: 150px;
   background-color: black;
@@ -8,25 +6,11 @@
   justify-content: center; }
 
 .companies {
-  position: absolute;
   width: 50vw;
   height: 150px;
   background-color: black;
   display: flex;
   justify-content: space-around; }
-
-.aquarium-logo {
-  width: 170px;
-  height: auto;
-  margin-top: 15px; }
-
-.reef-cafe-logo {
-  width: 220px;
-  height: auto; }
-
-.bistro-logo {
-  width: 200px;
-  height: auto; }
 
 @media only screen and (max-width: 1200px) {
   .companies-container {

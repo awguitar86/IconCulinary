@@ -1,8 +1,6 @@
 .welcome-container {
-  position: absolute;
   width: 100vw;
   height: 600px;
-  top: 845px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;

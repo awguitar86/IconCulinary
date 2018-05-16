@@ -11,9 +11,7 @@ export default class Venues extends Component {
         return(
             <div className="companies-container">
                 <div className="companies">
-                    <Link to='/aquarium'> <img src={aquarium} alt="aquarium logo" className="aquarium-logo"/> </Link>
-                    <img src={reefcafe} alt="reef cafe logo" className="reef-cafe-logo"/>
-                    <img src={bistro72} ale="bistro72 logo" className="bistro-logo"/>
+
                 </div>
             </div>
         )

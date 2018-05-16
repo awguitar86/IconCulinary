@@ -1,37 +1,61 @@
+@import '../../_colors.scss';
+
 .header-container {
-    position: fixed;
-    top: 0px;
+    // position: fixed;
     width: 100vw;
-    height: 85px;
+    height: 200px;
     background-color: black;
     display: flex;
     justify-content: center;
-    z-index: 1;
+    margin-top: -10px;
+    // z-index: 1;
+}
+
+.fillin-div {
+    width: 30vw;
+    display: flex;
+    align-items: flex-end;
+    // border: solid gold;
+}
+
+.header-social {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    // border: solid gold;
+    img {
+        width: 30px;
+        height: auto;
+    }
 }
 
 .logo-container {
     display: flex;
-    justify-content: flex-start;
-    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    // border: solid blue;
 }
 
 .icon-logo {
-    width: 140px;
+    width: 300px;
     height: auto;
-    padding-left: 90px;
-    padding-top: 17px;
-    margin-top: -14px;
+    margin-bottom: 10px;
+    img {
+        width: 300px;
+        height: auto;
+    }
 }
 
-.icon-logo img {
-    width: 140px;
-    height: auto;
-}
 
 .nav-container {
     display: flex;
     justify-content: flex-end;
-    width: 50vw;
+    align-items: flex-end;
+    width: 30vw;
+    // border: solid red;
 }
 
 .nav {
@@ -39,96 +63,18 @@
     justify-content: space-around;
     width: 412px;
     height: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $font;
     font-size: 12pt;
     padding: 30px 20px 20px 0px;
+    a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: $red;
+        }
+    }
 }
 
-.home {
-    text-decoration: none;
-    color: white;
-}
-
-.home:hover {
-    color: #BE1E2D;
-}
-
-.venues {
-    position: relative;
-    z-index: 2;
-    width: 70px;
-    height: 50px;
-    text-decoration: none;
-    color: white;
-}
-
-.venues:hover {
-    color: #BE1E2D;
-    cursor: pointer;
-}
-
-.backdrop {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: none;
-}
-
-.backdrop.open {
-    display: block;
-}
-
-.magic-dropdown-menu {
-    position: absolute;
-    top: 80px;
-    right: 140px;
-    background-color: black;
-    border-radius: 0px 0px 7px 7px;
-    padding: 10px;
-    width: 150px;
-    height: 80px;
-    z-index: 3;
-  }
-  
-.magic-dropdown-menu-img-box {
-    width: 155px;
-    height: 55px;
-    margin-top: 10px;
-    margin-left: -5px;
-    display: flex;
-    align-items: center;
-    border-bottom: solid 1px white;
-  }
-
-.magic-dropdown-menu-img-box:hover {
-    background-color: rgba(255, 255, 255, 0.132);
-}
-  
-.magic-dropdown-menu-img {
-    width: 150px;
-  }
-
-.magic-dropdown-menu-img img {
-    width: 190px;
-    height: auto;
-    margin-left: -12px;
-  }
-
-.contact {  
-    text-decoration: none;
-    color: white;  
-}
-
-.contact:hover {
-    color: #BE1E2D;
-}
-
-.ham-menu {
-    display: none;
-}
 
 @media only screen and (max-width: 1200px) {
 
@@ -150,7 +96,7 @@
         padding-top: 17px;
         margin-top: -11px;
     }
-    
+
     .icon-logo img {
         width: 100px;
         height: auto;
@@ -167,7 +113,7 @@
         justify-content: flex-end;
         width: 412px;
         height: 5px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: $font;
         font-size: 11pt;
         padding-top: 25px;
         padding-right: 40px;
@@ -178,7 +124,7 @@
         height: 20px;
         text-decoration: none;
         color: white;
-        margin-right: 50px; 
+        margin-right: 50px;
     }
 
     .venues {
@@ -187,13 +133,13 @@
         height: 35px;
         text-decoration: none;
         color: white;
-        margin-right: 50px;  
+        margin-right: 50px;
     }
 
-    .contact {  
+    .contact {
         height: 20px;
         text-decoration: none;
-        color: white; 
+        color: white;
     }
 
     .magic-dropdown-menu {
@@ -207,7 +153,7 @@
         height: 80px;
         z-index: 3;
       }
-      
+
     .magic-dropdown-menu-img-box {
         width: 155px;
         height: 55px;
@@ -217,15 +163,15 @@
         padding-top: 5px;
         border-bottom: solid 1px white;
       }
-    
+
     .magic-dropdown-menu-img-box:hover {
         background-color: rgba(255, 255, 255, 0.132);
     }
-      
+
     .magic-dropdown-menu-img {
         width: 150px;
       }
-    
+
     .magic-dropdown-menu-img img {
         width: 190px;
         height: auto;
@@ -251,11 +197,11 @@
         height: 80px;
         z-index: 3;
       }
-    
+
       .ham-menu {
         display: none;
     }
-        
+
 }
 
 @media only screen and (max-width: 770px) {
@@ -270,31 +216,31 @@
         justify-content: center;
         z-index: 1;
     }
-    
+
     .logo-container {
         display: flex;
         justify-content: flex-start;
         width: 50vw;
     }
-    
+
     .icon-logo {
         width: 100px;
         height: auto;
         padding-left: 40px;
         padding-top: 13px;
     }
-    
+
     .icon-logo img {
         width: 80px;
         height: auto;
     }
-    
+
     .nav-container {
         display: flex;
         justify-content: flex-end;
         width: 50vw;
     }
-    
+
     .nav {
         display: flex;
         justify-content: flex-end;
@@ -305,15 +251,15 @@
         padding-top: 15px;
         padding-right: 40px;
     }
-    
+
     .home {
         display: none;
     }
-    
+
     .venues {
         display: none;
     }
-    
+
     .backdrop {
         position: fixed;
         width: 100vw;
@@ -323,7 +269,7 @@
         z-index: 1;
         display: none;
     }
-    
+
     .backdrop.open {
         display: block;
     }
@@ -340,7 +286,7 @@
         margin-top: -12px;
         margin-bottom: -6px;
     }
-    
+
     .ham-dropdown-menu {
         position: absolute;
         top: 35px;
@@ -352,21 +298,21 @@
         height: 230px;
         z-index: 3;
       }
-      
+
     .ham-dropdown-menu-content-box {
         width: 200px;
         height: 70px;
-        
+
         border-bottom: solid 1px white;
         display: flex;
         justify-content: center;
         align-items: center;
       }
-    
+
     .ham-dropdown-menu-content-box:hover {
         background-color: rgba(255, 255, 255, 0.132);
     }
-      
+
     .ham-dropdown-menu-content {
         width: 200px;
         height: 55px;
@@ -378,14 +324,14 @@
         text-decoration: none;
         color: white;
       }
-    
+
     .ham-dropdown-menu-content img {
         width: 220px;
         height: auto;
         margin-left: 16px;
       }
-    
-    .contact {  
+
+    .contact {
         display: none;
     }
 

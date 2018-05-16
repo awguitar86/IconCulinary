@@ -1,33 +1,45 @@
 .header-container {
-  position: fixed;
-  top: 0px;
   width: 100vw;
-  height: 85px;
+  height: 200px;
   background-color: black;
   display: flex;
   justify-content: center;
-  z-index: 1; }
+  margin-top: -10px; }
+
+.fillin-div {
+  width: 30vw;
+  display: flex;
+  align-items: flex-end; }
+
+.header-social {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px; }
+  .header-social img {
+    width: 30px;
+    height: auto; }
 
 .logo-container {
   display: flex;
-  justify-content: flex-start;
-  width: 50vw; }
+  justify-content: center;
+  align-items: center;
+  width: 40vw; }
 
 .icon-logo {
-  width: 140px;
+  width: 300px;
   height: auto;
-  padding-left: 90px;
-  padding-top: 17px;
-  margin-top: -14px; }
-
-.icon-logo img {
-  width: 140px;
-  height: auto; }
+  margin-bottom: 10px; }
+  .icon-logo img {
+    width: 300px;
+    height: auto; }
 
 .nav-container {
   display: flex;
   justify-content: flex-end;
-  width: 50vw; }
+  align-items: flex-end;
+  width: 30vw; }
 
 .nav {
   display: flex;
@@ -37,78 +49,11 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt;
   padding: 30px 20px 20px 0px; }
-
-.home {
-  text-decoration: none;
-  color: white; }
-
-.home:hover {
-  color: #BE1E2D; }
-
-.venues {
-  position: relative;
-  z-index: 2;
-  width: 70px;
-  height: 50px;
-  text-decoration: none;
-  color: white; }
-
-.venues:hover {
-  color: #BE1E2D;
-  cursor: pointer; }
-
-.backdrop {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: none; }
-
-.backdrop.open {
-  display: block; }
-
-.magic-dropdown-menu {
-  position: absolute;
-  top: 80px;
-  right: 140px;
-  background-color: black;
-  border-radius: 0px 0px 7px 7px;
-  padding: 10px;
-  width: 150px;
-  height: 80px;
-  z-index: 3; }
-
-.magic-dropdown-menu-img-box {
-  width: 155px;
-  height: 55px;
-  margin-top: 10px;
-  margin-left: -5px;
-  display: flex;
-  align-items: center;
-  border-bottom: solid 1px white; }
-
-.magic-dropdown-menu-img-box:hover {
-  background-color: rgba(255, 255, 255, 0.132); }
-
-.magic-dropdown-menu-img {
-  width: 150px; }
-
-.magic-dropdown-menu-img img {
-  width: 190px;
-  height: auto;
-  margin-left: -12px; }
-
-.contact {
-  text-decoration: none;
-  color: white; }
-
-.contact:hover {
-  color: #BE1E2D; }
-
-.ham-menu {
-  display: none; }
+  .nav a {
+    text-decoration: none;
+    color: white; }
+    .nav a:hover {
+      color: #BE1E2D; }
 
 @media only screen and (max-width: 1200px) {
   .header-container {

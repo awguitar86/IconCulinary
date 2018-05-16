@@ -1,29 +1,16 @@
 .hero {
-    position: absolute;
-    top: 77px;
     width: 100vw;
-    height: 625px;
+    height: 850px;
     display: flex;
     justify-content: center;
-    background-image: url('../../../images/steak-slices.jpg');
-    background-size: 1800px;
+    background-image: url('../../../images/FoodWithSharksInBack.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center -200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.layer {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.2);
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 700px;
-}
-
 .icon-text {
-    position: absolute;
-    top: 200px;
     color: white;
     text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
     font-size: 46pt;
@@ -31,8 +18,6 @@
 }
 
 .icon-subtext {
-    position: absolute;
-    top: 320px;
     color: white;
     text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
     font-size: 22pt;
@@ -42,8 +27,6 @@
 @media only screen and (max-width: 1200px) {
 
     .hero {
-        position: absolute;
-        top: 57px;
         width: 100vw;
         height: 520px;
         display: flex;
@@ -56,17 +39,12 @@
     }
 
     .layer {
-        position: absolute;
         background-color: rgba(0, 0, 0, 0.2);
-        top: 0;
-        left: 0;
         width: 100vw;
         height: 520px;
     }
 
     .icon-text {
-        position: absolute;
-        top: 160px;
         color: white;
         text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
         font-size: 46pt;
@@ -74,8 +52,6 @@
     }
 
     .icon-subtext {
-        position: absolute;
-        top: 280px;
         color: white;
         text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
         font-size: 22pt;
